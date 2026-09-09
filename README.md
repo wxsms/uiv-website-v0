@@ -1,6 +1,8 @@
 # uiv-website-v0
 
-> A Vue.js project
+> Documentation site of [uiv](https://github.com/uiv-lib/uiv) (Bootstrap 3 components implemented by Vue 2).
+
+**Live site:** https://wxsms.github.io/uiv-website-v0/
 
 ## Build Setup
 
