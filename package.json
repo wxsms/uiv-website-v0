@@ -42,7 +42,7 @@
     "markdown-it-anchor": "7.1.0",
     "mini-css-extract-plugin": "1.4.1",
     "node-notifier": "9.0.1",
-    "optimize-css-assets-webpack-plugin": "5.0.4",
+    "optimize-css-assets-webpack-plugin": "5.0.8",
     "ora": "5.4.0",
     "portfinder": "1.0.28",
     "postcss": "8.2.10",
