@@ -164,7 +164,7 @@ Make a group of buttons stretch at equal sizes to span the entire width of its p
 
 # API Reference
 
-## [BtnGroup](https://github.com/uiv-lib/uiv/blob/0.x/src/components/button/BtnGroup.js)
+## [BtnGroup](https://github.com/wxsms/uiv/blob/0.x/src/components/button/BtnGroup.js)
 
 ### Props
 
@@ -180,6 +180,6 @@ Name      | Description
 --------- | -----------------------
 `default` | The button group body.
 
-## [BtnToolbar](https://github.com/uiv-lib/uiv/blob/0.x/src/components/button/BtnToolbar.js)
+## [BtnToolbar](https://github.com/wxsms/uiv/blob/0.x/src/components/button/BtnToolbar.js)
 
 This component has no props.
