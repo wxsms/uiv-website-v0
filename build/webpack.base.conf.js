@@ -17,6 +17,9 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
+    // Webpack 4 defaults to md4 for module hashes, which is unavailable in
+    // Node.js 17+ (OpenSSL 3). Use sha256 instead so builds keep working.
+    hashFunction: 'sha256',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath

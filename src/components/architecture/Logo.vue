@@ -9,7 +9,7 @@
           width: 195 * props.scale + 'px'
         },
         attrs: {
-          src: '/static/logo.png'
+          src: process.env.BASE_URL + 'static/logo.png'
         }
       })
     },
