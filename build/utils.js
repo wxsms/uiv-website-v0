@@ -121,6 +121,16 @@ exports.generateRenderPlugins = () => {
     new PrerenderSpaPlugin({
         staticDir: distPath,
         routes: paths,
+        // The site is hosted under a sub-path on GitHub Pages, but the build
+        // publicPath stays '/' so this plugin's local server can serve assets.
+        // Rewrite asset URLs in the rendered HTML to the sub-path afterwards.
+        postProcess (renderedRoute) {
+          renderedRoute.html = renderedRoute.html.replace(
+            /(src|href)="\/static\//g,
+            '$1="/uiv-website-v0/static/'
+          )
+          return renderedRoute
+        },
         renderer: new Renderer({
           maxConcurrentRoutes: 5,
           headless: true,
@@ -131,7 +141,7 @@ exports.generateRenderPlugins = () => {
       }
     ),
     new SitemapPlugin({
-      base: 'https://uiv-v0.wxsm.space',
+      base: 'https://wxsms.github.io/uiv-website-v0',
       paths: paths.map(path => {
         return {
           path: path === '/' ? path : path + '/',

@@ -1,5 +1,15 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+
+// The site is now hosted under a sub-path (GitHub Pages project site).
+// Build-time publicPath stays '/' so that prerender-spa-plugin's local server
+// can load assets from root. At runtime (real browsers) we point lazy-loaded
+// chunks to the sub-path. During prerendering/dev the pathname has no
+// sub-path prefix, so the default '/' is kept.
+if (window.location.pathname.indexOf('/uiv-website-v0') === 0) {
+  __webpack_public_path__ = '/uiv-website-v0/'
+}
+
 import './assets/css/vender.less'
 import './assets/css/common.less'
 
