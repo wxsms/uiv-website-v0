@@ -3436,10 +3436,10 @@ highlight.js@10.7.2:
   resolved "https://registry.npmmirror.com/highlight.js/download/highlight.js-10.7.2.tgz#89319b861edc66c48854ed1e6da21ea89f847360"
   integrity sha1-iTGbhh7cZsSIVO0ebaIeqJ+Ec2A=
 
-highlight.js@^10.0.3:
-  version "10.1.1"
-  resolved "https://registry.npmmirror.com/highlight.js/download/highlight.js-10.1.1.tgz#691a2148a8d922bf12e52a294566a0d993b94c57"
-  integrity sha1-aRohSKjZIr8S5SopRWag2ZO5TFc=
+highlight.js@^11.0.0:
+  version "11.12.0"
+  resolved "https://registry.npmmirror.com/highlight.js/-/highlight.js-11.12.0.tgz#470d918fd556a76debc40fe5e4b540b6b9cb9890"
+  integrity sha512-nbfWpyRMcMrPMmDwJB+dhX/eiaPKtc2RB+0QZskqJ3WjRA/FDS0e9hZrx8EC/lbEv8gXy98FcDbNa/dspAaJMg==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -7266,12 +7266,12 @@ vue-loader@14.2.4:
     vue-style-loader "^4.0.1"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-md-loader@1.1.8:
-  version "1.1.8"
-  resolved "https://registry.npmmirror.com/vue-md-loader/download/vue-md-loader-1.1.8.tgz#ad2fa59109d268517cac6893683fc095f7b263d8"
-  integrity sha1-rS+lkQnSaFF8rGiTaD/AlfeyY9g=
+vue-md-loader@1.1.10:
+  version "1.1.10"
+  resolved "https://registry.npmmirror.com/vue-md-loader/-/vue-md-loader-1.1.10.tgz#ab9a4990568d5f346c4d4b9cd8c020f0992de82e"
+  integrity sha512-oID1rdyL7pvC7utPUXGkz2wjnjjrsUnyAHjoYb3qcM6VumvjkJGZG88/CcJOLpguXev5Ofhz3gph0u1v6Kp2tA==
   dependencies:
-    highlight.js "^10.0.3"
+    highlight.js "^11.0.0"
     loader-utils "^2.0.0"
     markdown-it "^12.0.0"
 
