@@ -5433,10 +5433,10 @@ postcss-discard-overridden@^4.0.1:
   dependencies:
     postcss "^7.0.0"
 
-postcss-import@14.0.1:
-  version "14.0.1"
-  resolved "https://registry.npmmirror.com/postcss-import/download/postcss-import-14.0.1.tgz?cache=0&sync_timestamp=1617232242063&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpostcss-import%2Fdownload%2Fpostcss-import-14.0.1.tgz#6a3f8f2ce74a95fc7c72ecfe3eddfa0e9124e677"
-  integrity sha1-aj+PLOdKlfx8cuz+Pt36DpEk5nc=
+postcss-import@14.1.0:
+  version "14.1.0"
+  resolved "https://registry.npmmirror.com/postcss-import/-/postcss-import-14.1.0.tgz#a7333ffe32f0b8795303ee9e40215dac922781f0"
+  integrity sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==
   dependencies:
     postcss-value-parser "^4.0.0"
     read-cache "^1.0.0"
