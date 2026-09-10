@@ -2033,12 +2033,12 @@ cookie@0.4.0:
   resolved "https://registry.npmmirror.com/cookie/download/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha1-vrQ35wIrO21JAZ0IhmUwPr6cFLo=
 
-copy-anything@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmmirror.com/copy-anything/download/copy-anything-2.0.1.tgz#2afbce6da684bdfcbec93752fa762819cb480d9a"
-  integrity sha1-KvvObaaEvfy+yTdS+nYoGctIDZo=
+copy-anything@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.npmmirror.com/copy-anything/-/copy-anything-3.0.5.tgz#2d92dce8c498f790fa7ad16b01a1ae5a45b020a0"
+  integrity sha512-yCEafptTtb4bk7GLEQoM8KVJpxAfdBJYaXyzQEgQQQgYrZiDp8SJmGKlYza6CYjEDNstAdNdKA3UuoULlEbS6w==
   dependencies:
-    is-what "^3.7.1"
+    is-what "^4.1.8"
 
 copy-concurrently@^1.0.0:
   version "1.0.5"
@@ -2371,7 +2371,7 @@ de-indent@^1.0.2:
   resolved "https://registry.npmmirror.com/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
-debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
+debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.npmmirror.com/debug/download/debug-2.6.9.tgz?cache=0&sync_timestamp=1589891993007&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fdebug%2Fdownload%2Fdebug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
@@ -3631,6 +3631,13 @@ iconv-lite@0.4.24, iconv-lite@^0.4.4:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+iconv-lite@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
+
 icss-replace-symbols@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/icss-replace-symbols/-/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
@@ -3662,11 +3669,6 @@ ignore@^5.1.4:
   version "5.1.8"
   resolved "https://registry.npmmirror.com/ignore/download/ignore-5.1.8.tgz?cache=0&sync_timestamp=1590809430681&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fignore%2Fdownload%2Fignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha1-8VCotQo0KJsz4i9YiavU2AFvDlc=
-
-image-size@~0.5.0:
-  version "0.5.5"
-  resolved "https://registry.npmmirror.com/image-size/download/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
-  integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
 import-fresh@^2.0.0:
   version "2.0.0"
@@ -4035,10 +4037,10 @@ is-unicode-supported@^0.1.0:
   resolved "https://registry.npmmirror.com/is-unicode-supported/download/is-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
   integrity sha1-PybHaoCVk7Ur+i7LVxDtJ3m1Iqc=
 
-is-what@^3.7.1:
-  version "3.12.0"
-  resolved "https://registry.npmmirror.com/is-what/download/is-what-3.12.0.tgz#f4405ce4bd6dd420d3ced51a026fb90e03705e55"
-  integrity sha1-9EBc5L1t1CDTztUaAm+5DgNwXlU=
+is-what@^4.1.8:
+  version "4.1.16"
+  resolved "https://registry.npmmirror.com/is-what/-/is-what-4.1.16.tgz#1ad860a19da8b4895ad5495da3182ce2acdd7a6f"
+  integrity sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -4206,21 +4208,20 @@ less-loader@7.3.0:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-less@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmmirror.com/less/download/less-4.1.1.tgz#15bf253a9939791dc690888c3ff424f3e6c7edba"
-  integrity sha1-Fb8lOpk5eR3GkIiMP/Qk8+bH7bo=
+less@4.9.1:
+  version "4.9.1"
+  resolved "https://registry.npmmirror.com/less/-/less-4.9.1.tgz#5a873974b8e66dec7d4f04243bf1c8a5beef9de7"
+  integrity sha512-orp15PfJvvNDIqJdVWzMI9Sjpjp3VTiw3sfvbB+67LlISTEn8uVT2EdYSuyl02BLvaftv6sdk9Umnxmm5rckmg==
   dependencies:
-    copy-anything "^2.0.1"
+    copy-anything "^3.0.5"
     parse-node-version "^1.0.1"
-    tslib "^1.10.0"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
-    image-size "~0.5.0"
-    make-dir "^2.1.0"
+    make-dir "^5.1.0"
     mime "^1.4.1"
-    needle "^2.5.2"
+    needle "^3.1.0"
+    probe-image-size "^7.2.3"
     source-map "~0.6.0"
 
 lines-and-columns@^1.1.6:
@@ -4285,6 +4286,11 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmmirror.com/lodash.memoize/download/lodash.memoize-4.1.2.tgz?cache=0&sync_timestamp=1589682725270&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Flodash.memoize%2Fdownload%2Flodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.npmmirror.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -4367,7 +4373,7 @@ make-dir@^1.0.0:
   dependencies:
     pify "^3.0.0"
 
-make-dir@^2.0.0, make-dir@^2.1.0:
+make-dir@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmmirror.com/make-dir/download/make-dir-2.1.0.tgz?cache=0&sync_timestamp=1587567407163&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmake-dir%2Fdownload%2Fmake-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
   integrity sha1-XwMQ4YuL6JjMBwCSlaMK5B6R5vU=
@@ -4381,6 +4387,11 @@ make-dir@^3.0.2, make-dir@~3.1.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+make-dir@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/make-dir/-/make-dir-5.1.0.tgz#59b2d9acf7ffa543d14238617a697458fa8dd5c9"
+  integrity sha512-IfpFq6UM39dUNiphpA6uDezNx/AvWyhwfICWPR3t1VspkgkMZrL+Rk1RbN1bx+aeNYwOrqGJgEgV3yotk+ZUVw==
 
 map-cache@^0.2.2:
   version "0.2.2"
@@ -4736,6 +4747,14 @@ needle@^2.5.2:
   dependencies:
     debug "^3.2.6"
     iconv-lite "^0.4.4"
+    sax "^1.2.4"
+
+needle@^3.1.0:
+  version "3.5.0"
+  resolved "https://registry.npmmirror.com/needle/-/needle-3.5.0.tgz#aa2023642cb41b11a11babb733fd8fa952919112"
+  integrity sha512-jaQyPKKk2YokHrEg+vFDYxXIHTCBgiZwSHOoVx/8V3GIBS8/VN6NdVRmg8q1ERtPkMvmOvebsgga4sAj5hls/w==
+  dependencies:
+    iconv-lite "^0.6.3"
     sax "^1.2.4"
 
 negotiator@0.6.2:
@@ -5796,6 +5815,15 @@ private@^0.1.6, private@^0.1.8:
   resolved "https://registry.npmmirror.com/private/download/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha1-I4Hts2ifelPWUxkAYPz4ItLzaP8=
 
+probe-image-size@^7.2.3:
+  version "7.4.0"
+  resolved "https://registry.npmmirror.com/probe-image-size/-/probe-image-size-7.4.0.tgz#c189ae04e9aad1e3fa3a0998a956a7e9aab7f66d"
+  integrity sha512-cdEprVtZxV+awMde9X+4jILBFYh4CARxVrQaMl4wY4YcPWbul9jntXrIW95NInBDyJwcVUP3U0T6yukN8rMBaQ==
+  dependencies:
+    lodash.merge "^4.6.2"
+    needle "^2.5.2"
+    stream-parser "~0.3.1"
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/process-nextick-args/download/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -6263,7 +6291,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3":
+"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
   version "2.1.2"
   resolved "https://registry.npmmirror.com/safer-buffer/download/safer-buffer-2.1.2.tgz?cache=0&sync_timestamp=1589682784154&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fsafer-buffer%2Fdownload%2Fsafer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
@@ -6726,6 +6754,13 @@ stream-http@^2.7.2:
     readable-stream "^2.3.6"
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
+
+stream-parser@~0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmmirror.com/stream-parser/-/stream-parser-0.3.1.tgz#1618548694420021a1182ff0af1911c129761773"
+  integrity sha512-bJ/HgKq41nlKvlhccD5kaCr/P+Hu0wPNKPJOH7en+YrJu/9EgqUF+88w5Jb6KNcjOFMhfX4B2asfeAtIGuHObQ==
+  dependencies:
+    debug "2"
 
 stream-shift@^1.0.0:
   version "1.0.1"
