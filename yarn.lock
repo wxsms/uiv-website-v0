@@ -6331,12 +6331,10 @@ selfsigned@^1.10.8:
   dependencies:
     node-forge "^0.10.0"
 
-semver@7.3.5:
-  version "7.3.5"
-  resolved "https://registry.npmmirror.com/semver/download/semver-7.3.5.tgz?cache=0&sync_timestamp=1616463550093&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fsemver%2Fdownload%2Fsemver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
-  integrity sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc=
-  dependencies:
-    lru-cache "^6.0.0"
+semver@7.8.5:
+  version "7.8.5"
+  resolved "https://registry.npmmirror.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
+  integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
 
 semver@^5.3.0, semver@^5.5.0, semver@^5.6.0:
   version "5.7.1"
