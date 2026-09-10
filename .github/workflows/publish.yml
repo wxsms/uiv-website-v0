@@ -28,6 +28,10 @@ jobs:
             libpango-1.0-0 libcairo2 libasound2t64
       - name: Build
         run: npm run build
+        env:
+          # Webpack 4 uses md4 hashes internally (ModuleConcatenationPlugin,
+          # Terser, ...) which are unavailable in Node 17+ (OpenSSL 3)
+          NODE_OPTIONS: --openssl-legacy-provider
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4.2.0
         env:
