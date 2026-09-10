@@ -96,7 +96,8 @@ const webpackConfig = merge(baseWebpackConfig, {
       // chunksSortMode: 'dependency'
     }),
     // keep module.id stable when vendor modules does not change
-    new webpack.HashedModuleIdsPlugin(),
+    // (md4 default is unavailable in Node.js 17+ / OpenSSL 3)
+    new webpack.HashedModuleIdsPlugin({ hashFunction: 'sha256' }),
     // enable scope hoisting
     new webpack.optimize.ModuleConcatenationPlugin(),
     // copy custom static assets
