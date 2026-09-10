@@ -45,7 +45,7 @@
     "optimize-css-assets-webpack-plugin": "5.0.8",
     "ora": "5.4.1",
     "portfinder": "1.0.38",
-    "postcss": "8.2.10",
+    "postcss": "8.5.28",
     "postcss-import": "14.0.1",
     "postcss-loader": "4.2.0",
     "postcss-url": "10.1.4",
