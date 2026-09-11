@@ -1,15 +1,16 @@
 {
   "extends": [
-    "config:base",
-    ":pinAllExceptPeerDependencies"
+    "config:recommended"
   ],
-  "labels": [
-    "dependencies"
-  ],
-  "assignees": [
-    "wxsms"
-  ],
-  "reviewers": [
-    "wxsms"
+  "minimumReleaseAge": "7 days",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
   ]
 }
