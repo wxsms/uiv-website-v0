@@ -23,6 +23,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@discoveryjs/json-ext@0.5.7":
+  version "0.5.7"
+  resolved "https://registry.npmmirror.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
+  integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.1"
   resolved "https://registry.npmmirror.com/@discoveryjs/json-ext/download/@discoveryjs/json-ext-0.5.1.tgz#cf87081ac9b0f3eb3b5740415b50b7966bac8fc5"
@@ -56,10 +61,10 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@polka/url@^1.0.0-next.9":
-  version "1.0.0-next.11"
-  resolved "https://registry.npmmirror.com/@polka/url/download/@polka/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
-  integrity sha1-rrFvUGSaka952+NldLZtD55Nn3E=
+"@polka/url@^1.0.0-next.24":
+  version "1.0.0-next.29"
+  resolved "https://registry.npmmirror.com/@polka/url/-/url-1.0.0-next.29.tgz#5a40109a1ab5f84d6fd8fc928b19f367cbe7e7b1"
+  integrity sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==
 
 "@prerenderer/prerenderer@^0.7.2":
   version "0.7.2"
@@ -1924,15 +1929,15 @@ commander@^4.1.1:
   resolved "https://registry.npmmirror.com/commander/download/commander-4.1.1.tgz?cache=0&sync_timestamp=1598576318379&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
 
-commander@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.npmmirror.com/commander/download/commander-6.2.0.tgz?cache=0&sync_timestamp=1603599641908&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-6.2.0.tgz#b990bfb8ac030aedc6d11bc04d1488ffef56db75"
-  integrity sha1-uZC/uKwDCu3G0RvATRSI/+9W23U=
-
 commander@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmmirror.com/commander/download/commander-7.0.0.tgz?cache=0&sync_timestamp=1610702151695&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-7.0.0.tgz#3e2bbfd8bb6724760980988fb5b22b7ee6b71ab2"
   integrity sha1-Piu/2LtnJHYJgJiPtbIrfua3GrI=
+
+commander@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.npmmirror.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
+  integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
 commander@~2.19.0:
   version "2.19.0"
@@ -2373,6 +2378,11 @@ de-indent@^1.0.2:
   resolved "https://registry.npmmirror.com/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
+debounce@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
+  integrity sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==
+
 debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.npmmirror.com/debug/download/debug-2.6.9.tgz?cache=0&sync_timestamp=1589891993007&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fdebug%2Fdownload%2Fdebug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -2795,6 +2805,11 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmmirror.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -3501,6 +3516,11 @@ html-entities@^1.3.1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/html-entities/-/html-entities-1.3.1.tgz#fb9a1a4b5b14c5daba82d3e34c6ae4fe701a0e44"
   integrity sha512-rhE/4Z3hIhzHAUKbW8jVcCyuT5oJCXXqhN/6mXXVCpzTmvJnoH2HL/bt3EZ6p55jbFJBeAe1ZNpL5BugLujxNA==
+
+html-escaper@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
+  integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
 html-minifier-terser@^5.0.1:
   version "5.1.1"
@@ -4566,11 +4586,6 @@ mime@^2.0.3, mime@^2.4.4:
   resolved "https://registry.npmmirror.com/mime/download/mime-2.4.6.tgz?cache=0&sync_timestamp=1590596834295&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmime%2Fdownload%2Fmime-2.4.6.tgz#e5b407c90db442f2beb5b162373d07b69affa4d1"
   integrity sha1-5bQHyQ20QvK+tbFiNz0Htpr/pNE=
 
-mime@^2.3.1:
-  version "2.4.7"
-  resolved "https://registry.npmmirror.com/mime/download/mime-2.4.7.tgz?cache=0&sync_timestamp=1608084195308&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmime%2Fdownload%2Fmime-2.4.7.tgz#962aed9be0ed19c91fd7dc2ece5d7f4e89a90d74"
-  integrity sha1-lirtm+DtGckf19wuzl1/TompDXQ=
-
 mime@~2.5.2:
   version "2.5.2"
   resolved "https://registry.npmmirror.com/mime/download/mime-2.5.2.tgz?cache=0&sync_timestamp=1613584838235&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmime%2Fdownload%2Fmime-2.5.2.tgz#6e3dc6cc2b9510643830e5f19d5cb753da5eeabe"
@@ -4702,6 +4717,11 @@ move-concurrently@^1.0.1:
     mkdirp "^0.5.1"
     rimraf "^2.5.4"
     run-queue "^1.0.3"
+
+mrmime@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/mrmime/-/mrmime-2.0.1.tgz#bc3e87f7987853a54c9850eeb1f1078cd44adddc"
+  integrity sha512-Y3wQdFg2Va6etvQ5I82yUhGdsKrcYox6p7FfL1LbK2J4V01F9TGlepTIhnK24t7koZibmg82KGglhA1XK5IsLQ==
 
 ms@2.0.0:
   version "2.0.0"
@@ -5314,7 +5334,7 @@ pend@~1.2.0:
   resolved "https://registry.npmmirror.com/pend/download/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
 
-picocolors@^1.1.1:
+picocolors@^1.0.0, picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
@@ -6529,14 +6549,14 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-sirv@^1.0.7:
-  version "1.0.10"
-  resolved "https://registry.npmmirror.com/sirv/download/sirv-1.0.10.tgz#3e591f5a9ae2520f50d5830f5fae38d97e7be194"
-  integrity sha1-PlkfWpriUg9Q1YMPX6442X574ZQ=
+sirv@^2.0.3:
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/sirv/-/sirv-2.0.4.tgz#5dd9a725c578e34e449f332703eb2a74e46a29b0"
+  integrity sha512-94Bdh3cC2PKrbgSOUqTiGPWVZeSiXfKOVZNJniWoqrWrRkB1CJzBU3NEbiTsPcYy1lDsANA/THzS+9WBiy5nfQ==
   dependencies:
-    "@polka/url" "^1.0.0-next.9"
-    mime "^2.3.1"
-    totalist "^1.0.0"
+    "@polka/url" "^1.0.0-next.24"
+    mrmime "^2.0.0"
+    totalist "^3.0.0"
 
 sitemap-webpack-plugin@1.1.1:
   version "1.1.1"
@@ -7061,10 +7081,10 @@ toidentifier@1.0.0:
   resolved "https://registry.npmmirror.com/toidentifier/download/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM=
 
-totalist@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npmmirror.com/totalist/download/totalist-1.1.0.tgz#a4d65a3e546517701e3e5c37a47a70ac97fe56df"
-  integrity sha1-pNZaPlRlF3AePlw3pHpwrJf+Vt8=
+totalist@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/totalist/-/totalist-3.0.1.tgz#ba3a3d600c915b1a97872348f79c127475f6acf8"
+  integrity sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==
 
 trim-right@^1.0.1:
   version "1.0.1"
@@ -7413,19 +7433,22 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webpack-bundle-analyzer@4.4.1:
-  version "4.4.1"
-  resolved "https://registry.npmmirror.com/webpack-bundle-analyzer/download/webpack-bundle-analyzer-4.4.1.tgz#c71fb2eaffc10a4754d7303b224adb2342069da1"
-  integrity sha1-xx+y6v/BCkdU1zA7IkrbI0IGnaE=
+webpack-bundle-analyzer@4.10.2:
+  version "4.10.2"
+  resolved "https://registry.npmmirror.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.10.2.tgz#633af2862c213730be3dbdf40456db171b60d5bd"
+  integrity sha512-vJptkMm9pk5si4Bv922ZbKLV8UTT4zib4FPgXMhgzUny0bfDDkLXAVQs3ly3fS4/TN9ROFtb0NFrm04UXFE/Vw==
   dependencies:
+    "@discoveryjs/json-ext" "0.5.7"
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
-    chalk "^4.1.0"
-    commander "^6.2.0"
+    commander "^7.2.0"
+    debounce "^1.2.1"
+    escape-string-regexp "^4.0.0"
     gzip-size "^6.0.0"
-    lodash "^4.17.20"
+    html-escaper "^2.0.2"
     opener "^1.5.2"
-    sirv "^1.0.7"
+    picocolors "^1.0.0"
+    sirv "^2.0.3"
     ws "^7.3.1"
 
 webpack-cli@4.10.0:
